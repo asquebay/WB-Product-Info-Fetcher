@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-// Структуры данных для парсинга ответа
+// структуры данных для парсинга ответа
 type Product struct {
 	ID         int     `json:"id"`
 	Name       string  `json:"name"`
